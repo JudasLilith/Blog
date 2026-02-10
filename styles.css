@@ -33,3 +33,17 @@ button {
 	padding: 3px 10px;
 	cursor: pointer;
 }
+
+.box {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(rgb(207, 144, 144), green, blue);
+	transform: translateX(70vw);
+	animation: moveRotate 2s ease infinite alternate-reverse;
+}
+
+@keyframes moveRotateP {
+	to {
+		transform: translateX(-80vw) rotate(360deg) scale(5);
+	}
+}
