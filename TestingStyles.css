@@ -1,0 +1,87 @@
+@media (prefers-color-scheme: dark) {
+}
+
+html {
+	background-color: rgb(255, 0, 0);
+    background-image: url("images/Moon.png");
+    background-size: auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+title {
+    font-family: "BlackMustang";
+    
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    color: rgb(0, 0, 0);
+	font-family: "BlackMustang";
+    font-size: 400%;
+	width: 600px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	/* padding: 20px 20px 20px 20px; */
+	border: 5px solid black;
+    border-radius: 2%;
+}
+
+/*
+Source - https://stackoverflow.com/a/69783603
+Posted by ConnerWithAnE, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-11, License - CC BY-SA 4.0
+*/
+
+.ball {
+  position: absolute;
+  left: 18%;
+  bottom: 150px;
+
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 5px solid black;
+
+  animation: fly-ball 2s
+}
+
+@keyframes fly-ball {
+100% {
+  transform: translateX(50%) translateY(100%);
+  zoom: 200%;
+  }
+}
+
+
+
+@font-face {
+    font-family: 'OldLondon'; /*a name to be used later*/
+    src: url('fonts/OldLondon.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'OldLondonAlternate'; /*a name to be used later*/
+    src: url('fonts/OldLondonAlternate.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'KingThings'; /*a name to be used later*/
+    src: url('fonts/Kingthings\ Spike.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'BlackMustang'; /*a name to be used later*/
+    src: url('fonts/Black\ Mustang.ttf'); /*URL to font*/
+}
