@@ -3,62 +3,111 @@
 
 html {
 	background-color: rgb(255, 0, 0);
-    background-image: url("images/Moon.png");
-    background-size: auto;
+    /*background-image: url("images/Moon.png");*/
+    background-size: 100% auto;
 }
 
 img {
 	display: block;
-	margin: 0 auto;
+	margin: 20 auto;
 	max-width: 100%;
 }
 
 title {
     font-family: "BlackMustang";
+    text-align:center;
+    margin: 30px 30px 30px 30px;
+
     
+}
+
+
+#titleName {
+    text-align: center;
+    font-size: 225%;
+	font-family: "BlackMustang";
+    margin: 0 auto;
+    overflow: auto;
+    animation: fade-up;
 }
 
 body {
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
 
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     color: rgb(0, 0, 0);
-	font-family: "BlackMustang";
-    font-size: 400%;
-	width: 600px;
+
+
+
 	margin: 0 auto;
-	background-color: #ffffff;
+	background-color: #ff0000;
 	/* padding: 20px 20px 20px 20px; */
-	border: 5px solid black;
     border-radius: 2%;
 }
 
-/*
-Source - https://stackoverflow.com/a/69783603
-Posted by ConnerWithAnE, modified by community. See post 'Timeline' for change history
-Retrieved 2026-02-11, License - CC BY-SA 4.0
-*/
 
 .ball {
   position: absolute;
-  left: 18%;
-  bottom: 150px;
+  align-items: center;
 
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   background-color: rgb(255, 255, 255);
-  border-radius: 50%;
+  border-radius: 100%;
   border: 5px solid black;
 
   animation: fly-ball 2s
 }
+
+
+
+#mainBody {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+
+
+}
+
+#mainBody2 {
+    margin-bottom: 10px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+
+
+}
+
+#titleName {
+    font-size: 900%;
+    border: 5px solid black;
+}
+
+
+
 
 @keyframes fly-ball {
 100% {
   transform: translateX(50%) translateY(100%);
   zoom: 200%;
   }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }    
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
 }
 
 
