@@ -13,24 +13,6 @@ img {
 	max-width: 100%;
 }
 
-title {
-    font-family: "BlackMustang";
-    text-align:center;
-    margin: 30px 30px 30px 30px;
-
-    
-}
-
-
-#titleName {
-    text-align: center;
-    font-size: 225%;
-	font-family: "BlackMustang";
-    margin: 0 auto;
-    overflow: auto;
-    animation: fade-up;
-}
-
 body {
     align-items: center;
     justify-content: space-evenly;
@@ -46,8 +28,31 @@ body {
 	background-color: #ff0000;
 	/* padding: 20px 20px 20px 20px; */
     border-radius: 2%;
+
+
+        animation: fade-up 0.5s;
 }
 
+button {
+    font-family: 'OldLondonAlternate';
+    font-size: 150%;
+}
+
+
+
+#titleName {
+    text-align: center;
+    font-size: 225%;
+	font-family: "BlackMustang";
+    margin: 1 1 2% 2%;
+    overflow: auto;
+    background-color: white;
+    font-size: 900%;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
 
 .ball {
   position: absolute;
@@ -66,29 +71,27 @@ body {
 
 #mainBody {
     background-color: rgb(255, 255, 255);
-    margin-bottom: 10px;
+    border: #ff0000 5px 5px 5px 5px;
+    margin-bottom: 10%;
     padding-top: 20%;
     padding-bottom: 20%;
-
+    border-radius: 2%;
+    border: 5px solid black;
 
 
 }
 
 #mainBody2 {
-    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border: #ff0000 5px 5px 5px 5px;
+    margin-bottom: 10%;
     padding-top: 20%;
     padding-bottom: 20%;
-
-
-
-}
-
-#titleName {
-    font-size: 900%;
+    border-radius: 2%;
     border: 5px solid black;
+
+
 }
-
-
 
 
 @keyframes fly-ball {
@@ -100,8 +103,8 @@ body {
 
 @keyframes fade-up {
     0% {
-        opacity: 0;
-        transform: translateY(-30px) scale(0.9);
+        opacity: 0.9;
+        transform: translateY(-2px) scale(0.95);
     }    
 
     100% {
