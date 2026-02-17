@@ -36,6 +36,8 @@ body {
 button {
     font-family: 'OldLondonAlternate';
     font-size: 150%;
+    border-radius: 3px;
+    animation: fly-ball;
 }
 
 
