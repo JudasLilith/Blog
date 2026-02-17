@@ -42,9 +42,9 @@ button {
 
 #titleName {
     text-align: center;
-    font-size: 225%;
+    font-size: 225vw;
 	font-family: "BlackMustang";
-    margin: 1 1 2% 2%;
+    margin: 1 1 2vw 2vw;
     overflow: auto;
     background-color: white;
     font-size: 900%;
@@ -52,10 +52,12 @@ button {
     border-radius: 10px;
     margin-bottom: 10%;
     margin-top: 10%;
+
 }
 
-.ball {
-  position: absolute;
+
+#Moon {
+    position: absolute;
   align-items: center;
 
   width: 50px;
@@ -64,19 +66,40 @@ button {
   border-radius: 100%;
   border: 5px solid black;
 
-  animation: fly-ball 2s
+  animation: moonTransition 2s;
+
 }
 
+#Ground {
+  position: relative;
+  align-items: center;
+  bottom: -10px;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  width: 500vw;
+  height: 500vw;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100%;
+  border: 5px solid black;
+
+
+}
 
 
 #mainBody {
     background-color: rgb(255, 255, 255);
     border: #ff0000 5px 5px 5px 5px;
     margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-top: 20%;
     padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 2%;
     border: 5px solid black;
+    font-family: "LongShot";
+    font-size: 2em;
 
 
 }
@@ -86,9 +109,13 @@ button {
     border: #ff0000 5px 5px 5px 5px;
     margin-bottom: 10%;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
     border-radius: 2%;
     border: 5px solid black;
+
+    font-family: "OldLondonAlternate";
 
 
 }
@@ -113,6 +140,26 @@ button {
     }
 }
 
+@keyframes moonTransition {
+0% {
+    opacity: 0;
+    transform: translateY(-2px) scale(0.5);
+
+
+}
+
+50%{
+    opacity: 1;
+    transform: translateY(0px);
+        border-radius: 10000%;
+
+}
+
+50%{
+    transform: translateY(0px);
+}
+
+}
 
 
 @font-face {
@@ -137,3 +184,9 @@ button {
     font-family: 'BlackMustang'; /*a name to be used later*/
     src: url('fonts/Black\ Mustang.ttf'); /*URL to font*/
 }
+
+@font-face {
+    font-family: 'LongShot'; /*a name to be used later*/
+    src: url('fonts/Long_Shot.ttf'); /*URL to font*/
+}
+
