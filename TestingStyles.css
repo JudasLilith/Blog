@@ -46,7 +46,7 @@ button {
     text-align: center;
     font-size: 225%;
 	font-family: "BlackMustang";
-    margin: 1 1 2% 2%;
+    margin: 1 1 3% 3%;
     overflow: auto;
     background-color: white;
     font-size: 900%;
@@ -97,6 +97,19 @@ button {
 
 
 @keyframes fly-ball {
+0% {
+    
+    opacity: 0;
+} 
+
+25% {
+    opacity: 1;
+}
+
+50% {
+    opacity: 12;
+}
+
 100% {
   transform: translateX(50%) translateY(100%);
   zoom: 200%;
