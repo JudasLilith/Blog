@@ -15,6 +15,12 @@ const node = document.createTextNode("This is a new paragraph.");
 para.appendChild(node)
 
 
+let scrollObserver = new IntersectionObserver((e)=>{
+    e.forEach((divBox)=>{
+        divBox.getElementById("mainBody").style.color = "blue";
+    })
+})
 
-
+document.querySelectorAll("div")
+scrollObserver.observe(div[0])
 
