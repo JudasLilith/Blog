@@ -227,3 +227,19 @@ button {
         transition: none;
     }
 }
+
+.Title {
+
+        text-align: center;
+	font-family: "BlackMustang";
+    margin: 1vw 1vw 1vw 1vw;
+    overflow: auto;
+    background-color: white;
+    font-size: 300%;
+    border: 5px solid black;
+    border-radius: 2vw;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
