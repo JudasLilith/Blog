@@ -42,7 +42,7 @@ scrollObserver.observe(allDivs);
 
 let MouseHoverButton = document.getElementsByClassName("button"); 
 MouseHoverButton.addEventListener("hover", ()=> {
-    console.log("alright this is now hovering");
+    console.log("alright this is now hovering, please stop bugging me FireFox");
 });
 
 

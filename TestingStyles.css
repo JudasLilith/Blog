@@ -7,10 +7,14 @@ html {
     background-size: 100% auto;
 }
 
+
+
+
 img {
 	display: block;
 	margin: 20 auto;
-	max-width: 100%;
+	max-width: 50%;
+    background-color: #000000;
 }
 
 body {
@@ -37,7 +41,7 @@ body {
 
 button {
     font-family: 'OldLondonAlternate';
-    font-size: 150%;
+    font-size: 100%;
     border-radius: 3px;
     animation: fly-ball;
 }
@@ -59,7 +63,7 @@ button {
 }
 
 .ball {
-  position: absolute;
+  position: fixed;
   align-items: center;
 
   width: 50px;
@@ -67,7 +71,9 @@ button {
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 5px solid black;
-  animation: fly-ball 2s
+  animation: fly-ball 3s;
+
+
 }
 
 
@@ -88,7 +94,7 @@ button {
 
 #mainBody2 {
     background-color: rgb(255, 255, 255);
-    border: #ff0000 5px 5px 5px 5px;
+    border: #000000 5px 5px 5px 5px;
     margin-bottom: 10%;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -97,8 +103,7 @@ button {
     border-radius: 2%;
     border: 5px solid black;
     font-family: "LongShot";
-
-
+    font-size:  12px;
 }
 
 
@@ -111,13 +116,13 @@ button {
   background-position-y: -200vw;
   width: 200vw;
   height: 200vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(128, 101, 101);
   border-radius: 100%;
   border: 5px solid black;
   z-index: -1;
 
-  margin-bottom: -175vw;
-  animation: fade-up 1s;
+  margin-bottom: -180vw;
+  animation: fade-up 2s;
  
 }
 
