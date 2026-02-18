@@ -20,7 +20,7 @@ body {
     display: flex;
 
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-    color: rgb(0, 0, 0);
+    color: rgb(57, 19, 19);
 
 	margin: 0 auto;
 	/*background-color: #433232;*/
@@ -35,8 +35,9 @@ button {
     font-family: 'OldLondonAlternate';
     font-size: 150%;
     background-color:rgb(255, 255, 255);
-    border-radius: 2vw;
-    border: 3vw 3vw 3vw 3vw;
+    border-radius: 3vw;
+    border: 5px solid black;
+
 }
 
 
@@ -50,7 +51,7 @@ button {
     background-color: white;
     font-size: 900%;
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 10vw;
     margin-bottom: 10%;
     margin-top: 10%;
 
@@ -97,7 +98,7 @@ button {
     margin-left: 10vw;
     margin-right: 10vw;
     padding-top: 2vw;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     padding-left: 2vw;
     padding-right: 2vw;
     border-radius: 2vw;
@@ -112,11 +113,11 @@ button {
     background-color: rgb(255, 255, 255);
     border: #ff0000 5px 5px 5px 5px;
     margin-bottom: 10%;
-    padding-top: 20%;
+    padding-top: 2%;
     padding-bottom: 5%;
     padding-right: 5%;
     padding-left: 5%;
-    border-radius: 2%;
+    border-radius: 5vw;
     border: 5px solid black;
 
     font-family: "OldLondonAlternate";
@@ -126,6 +127,10 @@ button {
 
 
 @keyframes fly-ball {
+0% {
+    transform: translateX(-100%) translateY(-100%);
+}
+
 100% {
   transform: translateX(50%) translateY(100%);
   zoom: 200%;
@@ -168,6 +173,22 @@ button {
 }
 
 }
+
+
+@keyframes GroundTransition {
+0% {
+  transform: translateX(50%) translateY(100%);
+  zoom: 200%;
+  }
+
+50% {
+  transform: translateX(50%) translateY(100%);
+  zoom: 200%;
+  }
+
+}
+
+
 
 
 @font-face {
