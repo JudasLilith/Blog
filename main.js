@@ -20,6 +20,10 @@ para.appendChild(node)
 
 
 
+let AndrewScroll = d; 
+window.addEventListener("scroll", ()=> {
+    if (window.scrollY == )
+})
 
 
 let scrollObserver = new IntersectionObserver((e)=>{
@@ -28,7 +32,7 @@ let scrollObserver = new IntersectionObserver((e)=>{
     })
 })
 
-const allDivs = document.querySelectorAll("div");
+const allDivs = document.querySelectorAll(".ball");
 scrollObserver.observe(allDivs);
 
 
