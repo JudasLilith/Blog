@@ -78,6 +78,7 @@ button {
 
 
 
+
 #mainBody {
     background-color: rgb(255, 255, 255);
     border: #ff0000 5px 5px 5px 5px;
@@ -96,6 +97,8 @@ button {
     background-color: rgb(255, 255, 255);
     border: #000000 5px 5px 5px 5px;
     margin-bottom: 10%;
+    margin-right:5%;
+    margin-left:5%;
     padding-top: 20%;
     padding-bottom: 20%;
     padding-left: 10%;
@@ -103,7 +106,7 @@ button {
     border-radius: 2%;
     border: 5px solid black;
     font-family: "LongShot";
-    font-size:  12px;
+    font-size:  4vw;
 }
 
 

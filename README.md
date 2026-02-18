@@ -13,4 +13,5 @@ Not_found - The name implies what it's for.....
 
 Mostly made from flexbox, tried valuing view screen versatility.
 
+I need to find a way to get rid of all my commits bruh
 
