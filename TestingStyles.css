@@ -65,7 +65,6 @@ button {
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 5px solid black;
-
   animation: fly-ball 2s
 }
 
@@ -79,6 +78,8 @@ button {
     padding-bottom: 20%;
     border-radius: 2%;
     border: 5px solid black;
+    font-family: "LongShot";
+    font-size: 200%;
 
 
 }
@@ -89,8 +90,11 @@ button {
     margin-bottom: 10%;
     padding-top: 20%;
     padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 2%;
     border: 5px solid black;
+    font-family: "LongShot";
 
 
 }
@@ -151,4 +155,12 @@ button {
 @font-face {
     font-family: 'BlackMustang'; /*a name to be used later*/
     src: url('fonts/Black\ Mustang.ttf'); /*URL to font*/
+}
+
+
+
+
+@font-face {
+    font-family: 'LongShot'; /*a name to be used later*/
+    src: url('fonts/Long_Shot.ttf'); /*URL to font*/
 }
