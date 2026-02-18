@@ -34,6 +34,9 @@ body {
 button {
     font-family: 'OldLondonAlternate';
     font-size: 150%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 2vw;
+    border: 3vw 3vw 3vw 3vw;
 }
 
 
@@ -63,7 +66,7 @@ button {
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 5px solid black;
-  animation: moonTransition 2s;
+  animation: moonTransition 3s;
 
 }
 
@@ -82,8 +85,8 @@ button {
   z-index: -1;
 
   margin-bottom: -175vw;
-
-
+  animation: fade-up 1s;
+ 
 }
 
 
@@ -131,9 +134,13 @@ button {
 
 @keyframes fade-up {
     0% {
-        opacity: 0.9;
+        opacity: 0.0;
         transform: translateY(-2px) scale(0.95);
-    }    
+    }  
+    
+    50% {
+        opacity: 1;
+    }
 
     100% {
         opacity: 1;
@@ -191,3 +198,9 @@ button {
     src: url('fonts/Long_Shot.ttf'); /*URL to font*/
 }
 
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
