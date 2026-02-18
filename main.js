@@ -3,7 +3,7 @@
 let answer = window.prompt("what is your name good sir")
 
 
-//Element declarations
+//Different button bindings
 let GameManualRedirect = document.getElementById("GameManualRedirect"); 
 GameManualRedirect.addEventListener("click", ()=> {
     window.location.href = "2026GameManual.pdf";
