@@ -1,6 +1,9 @@
 @media (prefers-color-scheme: dark) {
 }
 
+/**/
+
+
 html {
 	background-color: rgb(255, 0, 0);
     /*background-image: url("images/Moon.png");*/
@@ -8,12 +11,14 @@ html {
 }
 
 iframe {
-    background-color: white;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-color: rgb(106, 0, 0);
+    margin-left: 6px;
+    margin-right: 7px;
+    border-radius: 2vw;
+    border: 5px;
 }
 
-
+/*not defined */
 img {
     float: left;
 	display: block;
@@ -24,6 +29,12 @@ img {
     object-fit: cover;
     border-radius: 1vw;
 }
+
+/*This is the part of for the body*/
+
+
+
+
 
 body {
     align-items: center;
@@ -62,12 +73,12 @@ button {
   position: fixed;
   align-items: center;
 
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 5px solid black;
-  animation: fly-ball 5s;
+  animation: fly-ball s;
 
 
 }
@@ -99,11 +110,11 @@ button {
 
 
 .ProjectCube {
-    text-align: center;
+    text-align: left;
     display: flex;
     object-fit: cover;
-    font-family: BlackMustang;
-    font-size: 175%;
+    font-family: Kingthings;
+    font-size: 180%;
 
     margin-top: 10%;
     margin-bottom: 10%;
@@ -114,18 +125,15 @@ button {
     padding-bottom: 5%;
     padding-left: 1vw;
     padding-right: 1vw;
-
     border-radius: 1vw;
-
-
 
 
     background-color: aliceblue;
     border: 5px solid rgb(0, 0, 0);  
     
     p {
-        margin: 12px 12px 12px 12px;
-        padding: 12px 12px 12px 12px;
+        margin: 12% 12px 12px 12px;
+        padding: 12% 12 12px 12px;
     }
 
 }
@@ -135,18 +143,22 @@ button {
 #mainBody {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: #9f7c7c 5px 5px 5px 5px;
+    border: #5c1c1c 5% 5% 5% 5%;
     margin-top: 20%;
     margin-bottom: 20%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    border-radius: 3vw;
-    border: 5px solid black;
+    
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    border: 3px solid black;
+
+
     font-family: "LongShot";
     font-size: 200%;
 
-
 }
+
+
 
 #mainBody2 {
     text-align: center;
