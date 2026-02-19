@@ -1,23 +1,26 @@
 
 // just testing out features
-let answer = window.prompt("what is your name good sir")
 
+
+/*
+let answer = window.prompt("what is your name good sir")
+*/
 
 //Different button bindings
 let GameManualRedirect = document.getElementById("GameManualRedirect"); 
-GameManualRedirect.addEventListener("click", ()=> {
-    window.location.href = "2026GameManual.pdf";
-});
+GameManualRedirect.onclick = function(){
+    window.location.href = "GameManualNotes.html";
+}
 
 let ArticleDirectoryRedirect = document.getElementById("ArticleDirectoryRedirect"); 
-ArticleDirectoryRedirect.addEventListener("click", ()=> {
+ArticleDirectoryRedirect.onclick = function(){
     window.location.href = "ArticleDirectory.html";
-});
+}
 
 let GalleryDirectoryRedirect = document.getElementById("GalleryDirectoryRedirect"); 
-GalleryDirectoryRedirect.addEventListener("click", ()=> {
+GalleryDirectoryRedirect.onclick = function(){
     window.location.href = "GalleryDirectory.html";
-});
+};
 
 
 const para = document.createElement("p");
