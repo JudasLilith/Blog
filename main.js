@@ -14,17 +14,23 @@ ArticleDirectoryRedirect.addEventListener("click", ()=> {
     window.location.href = "ArticleDirectory.html";
 });
 
+let GalleryDirectoryRedirect = document.getElementById("GalleryDirectoryRedirect"); 
+GalleryDirectoryRedirect.addEventListener("click", ()=> {
+    window.location.href = "GalleryDirectory.html";
+});
+
+
 const para = document.createElement("p");
 const node = document.createTextNode("This is a new paragraph.");
 para.appendChild(node)
 
 
-
+/*
 let AndrewScroll = d; 
 window.addEventListener("scroll", ()=> {
     if (window.scrollY == )
 })
-
+*/
 
 let scrollObserver = new IntersectionObserver((e)=>{
     e.forEach((divBox)=>{

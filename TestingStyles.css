@@ -28,9 +28,8 @@ body {
 
 
 
-	margin: 0 auto;
-	/*background-color: #ffffff;*/
-	/* padding: 20px 20px 20px 20px; */
+
+
     border-radius: 2%;
 
 
@@ -48,19 +47,8 @@ button {
 
 
 
-#titleName {
-    text-align: center;
-    font-size: 225%;
-	font-family: "BlackMustang";
-    margin: 1 1 3% 3%;
-    overflow: auto;
-    background-color: white;
-    font-size: 900%;
-    border: 5px solid black;
-    border-radius: 10px;
-    margin-bottom: 10%;
-    margin-top: 10%;
-}
+
+
 
 .ball {
   position: fixed;
@@ -71,21 +59,68 @@ button {
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   border: 5px solid black;
-  animation: fly-ball 3s;
+  animation: fly-ball 5s;
 
 
 }
 
 
+.Title {
+	font-family: "BlackMustang";
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+
+    padding-top: -1%;
+    padding-bottom: -1%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    
+
+    background-color: white;
+    font-size: 30vw;
+    border: 5px solid black;
+    border-radius: 10px;
+    word-wrap: break-word;
+
+}
+
+
+
+.ProjectCube {
+    text-align: center;
+    display: flex;
+    font-family: BlackMustang;
+    font-size: 150%;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+
+    background-color: aliceblue;
+    border: 5px solid rgb(0, 0, 0);  
+
+}
+
 
 
 #mainBody {
     background-color: rgb(255, 255, 255);
-    border: #ff0000 5px 5px 5px 5px;
-    margin-bottom: 10%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    border-radius: 2%;
+    border: #9f7c7c 5px 5px 5px 5px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 2vw;
     border: 5px solid black;
     font-family: "LongShot";
     font-size: 200%;
@@ -96,13 +131,16 @@ button {
 #mainBody2 {
     background-color: rgb(255, 255, 255);
     border: #000000 5px 5px 5px 5px;
+    margin-top: 20%;
     margin-bottom: 10%;
-    margin-right:5%;
-    margin-left:5%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    margin-right: 10vw;;
+    margin-left: 10vw;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    
     border-radius: 2%;
     border: 5px solid black;
     font-family: "LongShot";
@@ -112,14 +150,14 @@ button {
 
 #Ground {
   position: fixed;
-  align-items: center -1000px;
+  align-items: center -900px;
   ;
   bottom: -10px;
   background-position-x: 10vw;
   background-position-y: -200vw;
   width: 200vw;
   height: 200vw;
-  background-color: rgb(128, 101, 101);
+  background-color: rgb(37, 35, 35);
   border-radius: 100%;
   border: 5px solid black;
   z-index: -1;
