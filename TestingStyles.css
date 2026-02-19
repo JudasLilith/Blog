@@ -7,7 +7,11 @@ html {
     background-size: 100% auto;
 }
 
-
+iframe {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 img {
@@ -166,10 +170,9 @@ button {
 
 #Ground {
   position: fixed;
-  align-items: center -950px;
+  align-items: center;
   ;
   bottom: -10px;
-  background-position-x: 10vw;
   background-position-y: -200vw;
   width: 200vw;
   height: 200vw;
