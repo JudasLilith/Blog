@@ -10,3 +10,4 @@ changeTitle = function(){
    changeTitleTimer = setTimeout(changeTitle(), 500);
 }
 
+//this is a fucking travestu

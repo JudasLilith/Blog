@@ -22,9 +22,15 @@ GalleryDirectoryRedirect.onclick = function(){
     window.location.href = "GalleryDirectory.html";
 };
 
-const para = document.createElement("p");
-const node = document.createTextNode("This is a new paragraph.");
+let APAHNotesRedirect = document.getElementById("APAHNotesRedirect"); 
+APAHNotesRedirect.onclick = function(){
+    window.location.href = "ArtHistoryNotes.html";
+};
 
+let APUSHNotesRedirect = document.getElementById("APUSHNotesRedirect"); 
+APUSHNotesRedirect.onclick = function(){
+    window.location.href = "USHistoryNotes.html";
+};
 
 /*
 let AndrewScroll = d; 
