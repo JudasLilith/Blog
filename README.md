@@ -11,7 +11,21 @@ NotesDirectory - List of notes(To google docs, etc.)
 Not_found - The name implies what it's for.....
 
 
-Mostly made from flexbox, tried valuing view screen versatility.
 
-I need to find a way to get rid of all my commits bruh
+Mostly made from flexbox, tried utmost valuing view screen versatility.
+
+
+I had to hassle with the GIT lfs, but nonetheless it worked
+
+Great, so for people who want to follow making this website, know that you need git LFS to search the large PDF file notes I have.
+So please, be sure to check everything works for a file bigger than 100MB.
+
+Be sure to check if they are able to even commit, I cant even fix this right now
+
+Oh wait writing just worked
+okay
+I think I just might have to fucking write everything by hand again
+
+Jesus christ
+
 
