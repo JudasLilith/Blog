@@ -6,6 +6,7 @@
 let answer = window.prompt("what is your name good sir")
 */
 
+
 //Different button bindings
 let GameManualRedirect = document.getElementById("GameManualRedirect"); 
 GameManualRedirect.onclick = function(){
