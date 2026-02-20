@@ -40,6 +40,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    border-spacing: 1vw;
     display: flex;
 
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
@@ -50,9 +51,7 @@ body {
 
 
     border-radius: 2%;
-
-
-        animation: fade-up 0.5s;
+    animation: fade-up 0.5s;
     
     z-index: 0;
 }
@@ -60,8 +59,18 @@ body {
 button {
     font-family: 'OldLondonAlternate';
     font-size: 100%;
-    border-radius: 3px;
+    border: 5px solid black;
+    border-radius: 10px;
     animation: fly-ball;
+    margin: 2vw 2vw 2vw 2vw;
+    background-color: aliceblue;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    p {
+        color: white;
+    }
 }
 
 
@@ -90,17 +99,17 @@ button {
 
     margin-top: 1vw;
     margin-bottom: 1vw;
-    margin-left: 1vw;
+    margin-left: 1%;
     margin-bottom: 1vw;
 
     padding-top: -1%;
     padding-bottom: -1%;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 1%;
+    padding-right: 1%;
     
 
     background-color: white;
-    font-size: 30vw;
+    font-size: 20vw;
     border: 5px solid black;
     border-radius: 10px;
     word-wrap: break-word;
@@ -113,7 +122,7 @@ button {
     text-align: left;
     display: flex;
     object-fit: cover;
-    font-family: Kingthings;
+    font-family: "BlackMustang";
     font-size: 180%;
 
     margin-top: 10%;
@@ -125,7 +134,7 @@ button {
     padding-bottom: 5%;
     padding-left: 1vw;
     padding-right: 1vw;
-    border-radius: 1vw;
+    border-radius: 2vw;
 
 
     background-color: aliceblue;
@@ -161,7 +170,7 @@ button {
 
 
 #mainBody2 {
-    text-align: center;
+
     background-color: rgb(255, 255, 255);
     border: #000000 5px 5px 5px 5px;
     margin-top: 20%;
@@ -177,14 +186,14 @@ button {
     border-radius: 2%;
     border: 5px solid black;
     font-family: "LongShot";
-    font-size:  4vw;
+    font-size:  2vw;
 }
 
 
 #Ground {
   position: fixed;
   align-items: center;
-  ;
+  text-align: center;
   bottom: -10px;
   background-position-y: -200vw;
   width: 200vw;

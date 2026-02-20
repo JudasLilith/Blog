@@ -22,7 +22,6 @@ GalleryDirectoryRedirect.onclick = function(){
     window.location.href = "GalleryDirectory.html";
 };
 
-
 const para = document.createElement("p");
 const node = document.createTextNode("This is a new paragraph.");
 
