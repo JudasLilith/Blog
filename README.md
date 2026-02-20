@@ -15,3 +15,7 @@ Mostly made from flexbox, tried valuing view screen versatility.
 
 I need to find a way to get rid of all my commits bruh
 
+To go to the website: 
+
+
+https://pac-blood.github.io/judaslilithblog.github.io/
